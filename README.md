@@ -134,7 +134,7 @@ craft.define(`nicely indent nested XML tags`, (feed, ctx) => {
 
 *Note:* Please note that these rule definitions and implementations are far from being optimal. Do not rely on these examples in a real-world usage. Write your own definitions and ideally implement them as generic as possible.
 
-## Preview output and save to file
+#### Preview output and save to file
 ```
 // get complete file content, without filters/rules applied
 let rawContent = file.print()
