@@ -173,6 +173,9 @@ class TextFile extends PortableFile {
    * @return _  Boolean  Whether there's a whitespace or not.
    */
   hasWhitespace () {
+    if (this.length === 0) {
+      return true // we consider BOF as valid whitespace
+    }
     let cursor = this.cursor
     let char = this.move(this.length - 1).read(1) // read last byte
     this.move(cursor) // move cursor back to initial position

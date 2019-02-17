@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Programmatically craft files on the fly",
   "main": "main.js",
-  "repository": "github:lexndru/hap",
-  "homepage": "https://github.com/lexndru/hap",
+  "repository": "github:lexndru/filecraft",
+  "homepage": "https://github.com/lexndru/filecraft",
   "directories": {
     "test": "tests"
   },
