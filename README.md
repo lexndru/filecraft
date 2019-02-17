@@ -22,7 +22,7 @@ $ node
 ```
 
 ## What is FileCraft?
-FileCraft is a Node.js module to create and alter file contents. It is useful when one would want to generate content for a file, but there are some conditions to obtain it's content and later on there must be applied some filters onto the content itself.
+FileCraft is a Node.js module to create and alter file contents. It is useful when one would want to generate content for a file, but there are some conditions to obtain its content and later on there must be applied some filters onto the content itself.
 
 The module allows an user to craft the content rather than just dumping it into a file. Crafting accepts a set of rules and filters that are applied to the data and the final output is shaped by these user-defined rules.
 
